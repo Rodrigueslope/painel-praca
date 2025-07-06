@@ -17,54 +17,48 @@ const WEATHER_CONFIG = {
 
 // Pontos de referência
 const PONTOS_REFERENCIA = [
-    {
-        id: 'centro',
-        name: 'Centro da Praça',
-        lat: -7.119722,
-        lng: -34.871667,
-        type: 'centro'
-    },
+
     {
         id: 'coreto',
         name: 'Coreto',
-        lat: -7.119800,
-        lng: -34.871600,
+        lat: -7.118720,
+        lng: -34.871104,
         type: 'monumento'
     },
     {
         id: 'obelisco',
         name: 'Obelisco',
-        lat: -7.119650,
-        lng: -34.871700,
+        lat: -7.119241,
+        lng: -34.871340,
         type: 'monumento'
     },
     // Entradas em pontos diferentes:
     {
         id: 'entrada_norte',
         name: 'Entrada Norte',
-        lat: -7.118384,
-        lng: -34.870916,
+        lat: -7.118459,
+        lng: -34.870975,
         type: 'acesso'
     },
     {
         id: 'entrada_sul',
         name: 'Entrada Sul',
-        lat: -7.119900,
-        lng: -34.870563,
+        lat: -7.119975,
+        lng: -34.871705,
         type: 'acesso'
     },
     {
         id: 'entrada_leste',
         name: 'Entrada Leste',
-        lat: -7.119545,
-        lng: -34.871400,
+        lat: -7.119528,
+        lng: -34.870659,
         type: 'acesso'
     },
     {
         id: 'entrada_oeste',
         name: 'Entrada Oeste',
-        lat: -7.119722,
-        lng: -34.871950,
+        lat: -7.118911,
+        lng: -34.871925,
         type: 'acesso'
     }
 ];
