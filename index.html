@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Painel Praça da Independência - João Pessoa</title>
-    
+
     <!-- Leaflet CSS - Múltiplos CDNs para garantir carregamento -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" 
           integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" 
@@ -425,6 +425,7 @@
                     <div class="header-subtitle">Análise de Fluxo em Tempo Real - João Pessoa, PB</div>
                 </div>
             </div>
+            <button id="btn-export-png">Exportar painel como PNG</button>
             <div class="header-info">
                 <div style="font-weight: 600;">Rodrigues Lopes</div>
                 <div style="opacity: 0.8;">(RBIM)</div>
@@ -633,6 +634,7 @@
             document.head.appendChild(script);
         }
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
     
     <!-- Custom JavaScript -->
     <script src="script.js"></script>
