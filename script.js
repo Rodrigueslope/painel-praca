@@ -523,32 +523,32 @@ function generateVeiculosData() {
     // Coordenadas das vias e entorno da praça (não dentro da área verde)
     const viasEntorno = [
         // Avenida Epitácio Pessoa (norte da praça)
-        { lat: -7.119400, lng: -34.871600, intensity: baseIntensity * 0.9 },
-        { lat: -7.119420, lng: -34.871650, intensity: baseIntensity * 0.8 },
-        { lat: -7.119380, lng: -34.871700, intensity: baseIntensity * 0.7 },
-        { lat: -7.119450, lng: -34.871550, intensity: baseIntensity * 0.6 },
+        { lat: -7.118614, lng: -34.870246, intensity: baseIntensity * 0.9 },
+        { lat: -7.118455, lng: -34.870557, intensity: baseIntensity * 0.8 },
+        { lat: -7.118236, lng: -34.871083, intensity: baseIntensity * 0.7 },
+        { lat: -7.118056, lng: -34.871555, intensity: baseIntensity * 0.6 },
         
         // Rua da Independência (sul da praça)
-        { lat: -7.120000, lng: -34.871600, intensity: baseIntensity * 0.8 },
-        { lat: -7.120020, lng: -34.871650, intensity: baseIntensity * 0.7 },
-        { lat: -7.119980, lng: -34.871700, intensity: baseIntensity * 0.6 },
-        { lat: -7.120040, lng: -34.871550, intensity: baseIntensity * 0.5 },
+        { lat: -7.119821, lng: -34.872477, intensity: baseIntensity * 0.8 },
+        { lat: -7.119991, lng: -34.872150, intensity: baseIntensity * 0.7 },
+        { lat: -7.120317, lng: -34.871507, intensity: baseIntensity * 0.6 },
+        { lat: -7.120487, lng: -34.871120, intensity: baseIntensity * 0.5 },
         
         // Rua lateral oeste
-        { lat: -7.119600, lng: -34.871400, intensity: baseIntensity * 0.6 },
-        { lat: -7.119700, lng: -34.871420, intensity: baseIntensity * 0.5 },
-        { lat: -7.119800, lng: -34.871440, intensity: baseIntensity * 0.4 },
+        { lat: -7.118487, lng: -34.871914, intensity: baseIntensity * 0.6 },
+        { lat: -7.118886, lng: -34.872097, intensity: baseIntensity * 0.5 },
+        { lat: -7.119450, lng: -34.872370, intensity: baseIntensity * 0.4 },
         
         // Rua lateral leste
-        { lat: -7.119600, lng: -34.871900, intensity: baseIntensity * 0.6 },
-        { lat: -7.119700, lng: -34.871920, intensity: baseIntensity * 0.5 },
-        { lat: -7.119800, lng: -34.871940, intensity: baseIntensity * 0.4 },
+        { lat: -7.120487, lng: -34.870852, intensity: baseIntensity * 0.6 },
+        { lat: -7.119918, lng: -34.870310, intensity: baseIntensity * 0.5 },
+        { lat: -7.119082, lng: -34.870128, intensity: baseIntensity * 0.4 },
         
         // Cruzamentos e esquinas
-        { lat: -7.119400, lng: -34.871400, intensity: baseIntensity * 0.7 },
-        { lat: -7.119400, lng: -34.871900, intensity: baseIntensity * 0.7 },
-        { lat: -7.120000, lng: -34.871400, intensity: baseIntensity * 0.6 },
-        { lat: -7.120000, lng: -34.871900, intensity: baseIntensity * 0.6 }
+        { lat: -7.119279, lng: -34.873513, intensity: baseIntensity * 0.7 },
+        { lat: -7.119045, lng: -34.869291, intensity: baseIntensity * 0.7 },
+        { lat: -7.118022, lng: -34.870299, intensity: baseIntensity * 0.6 },
+        { lat: -7.119911, lng: -34.868808, intensity: baseIntensity * 0.6 }
     ];
     
     return viasEntorno;
