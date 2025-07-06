@@ -920,12 +920,11 @@ window.addEventListener('offline', function() {
     console.log('Conexão perdida');
     showError('Conexão com a internet perdida. Algumas funcionalidades podem não funcionar.');
 });
-document.getElementById('btn-export-png').addEventListener('click', function() {
-    html2canvas(document.querySelector('.dashboard')).then(function(canvas) {
-        let link = document.createElement('a');
-        link.download = 'dashboard_praca_independencia.png';
-        link.href = canvas.toDataURL();
-        link.click();
-            });
+html2canvas(document.querySelector('.painel')).then(function(canvas) {
+    let link = document.createElement('a');
+    link.download = 'dashboard_praca_independencia.png';
+    link.href = canvas.toDataURL();
+    link.click();
+});
 });
 
