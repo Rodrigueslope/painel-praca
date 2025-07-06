@@ -38,18 +38,33 @@ const PONTOS_REFERENCIA = [
         lng: -34.871700,
         type: 'monumento'
     },
+    // Entradas em pontos diferentes:
     {
         id: 'entrada_norte',
         name: 'Entrada Norte',
-        lat: -7.119600,
+        lat: -7.119500,
         lng: -34.871667,
         type: 'acesso'
     },
     {
         id: 'entrada_sul',
         name: 'Entrada Sul',
-        lat: -7.119844,
+        lat: -7.119900,
         lng: -34.871667,
+        type: 'acesso'
+    },
+    {
+        id: 'entrada_leste',
+        name: 'Entrada Leste',
+        lat: -7.119722,
+        lng: -34.871400,
+        type: 'acesso'
+    },
+    {
+        id: 'entrada_oeste',
+        name: 'Entrada Oeste',
+        lat: -7.119722,
+        lng: -34.871950,
         type: 'acesso'
     }
 ];
