@@ -488,23 +488,16 @@ function generatePessoasData() {
     const baseIntensity = getIntensityByHour(hora);
     
     const data = [
-        { lat: -7.119722, lng: -34.871667, intensity: baseIntensity * 0.9 },
-        { lat: -7.119800, lng: -34.871600, intensity: baseIntensity * 0.7 },
-        { lat: -7.119790, lng: -34.871610, intensity: baseIntensity * 0.6 },
-        { lat: -7.119650, lng: -34.871700, intensity: baseIntensity * 0.8 },
-        { lat: -7.119660, lng: -34.871690, intensity: baseIntensity * 0.5 },
-        { lat: -7.119700, lng: -34.871650, intensity: baseIntensity * 0.6 },
+        { lat: -7.119029, lng: -34.870659, intensity: baseIntensity * 0.9 },
+        { lat: -7.118513, lng: -34.871566, intensity: baseIntensity * 0.7 },
+        { lat: -7.118667, lng: -34.870611, intensity: baseIntensity * 0.6 },
+        { lat: -7.119939, lng: -34.870868, intensity: baseIntensity * 0.8 },
+        { lat: -7.119109, lng: -34.871324, intensity: baseIntensity * 0.5 },
+        { lat: -7.119438, lng: -34.871169, intensity: baseIntensity * 0.6 },
         { lat: -7.119744, lng: -34.871684, intensity: baseIntensity * 0.5 },
-        { lat: -7.119700, lng: -34.871684, intensity: baseIntensity * 0.6 },
+        { lat: -7.118853, lng: -34.872226, intensity: baseIntensity * 0.6 },
         { lat: -7.119744, lng: -34.871650, intensity: baseIntensity * 0.5 },
         { lat: -7.119600, lng: -34.871667, intensity: baseIntensity * 0.7 },
-        { lat: -7.119844, lng: -34.871667, intensity: baseIntensity * 0.7 },
-        { lat: -7.119722, lng: -34.871600, intensity: baseIntensity * 0.6 },
-        { lat: -7.119722, lng: -34.871734, intensity: baseIntensity * 0.6 },
-        { lat: -7.119680, lng: -34.871620, intensity: baseIntensity * 0.4 },
-        { lat: -7.119764, lng: -34.871714, intensity: baseIntensity * 0.4 },
-        { lat: -7.119680, lng: -34.871714, intensity: baseIntensity * 0.4 },
-        { lat: -7.119764, lng: -34.871620, intensity: baseIntensity * 0.4 }
     ];
     
     // Adicionar pontos aleatórios
