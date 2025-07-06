@@ -42,21 +42,21 @@ const PONTOS_REFERENCIA = [
     {
         id: 'entrada_norte',
         name: 'Entrada Norte',
-        lat: -7.119500,
-        lng: -34.871667,
+        lat: -7.118384,
+        lng: -34.870916,
         type: 'acesso'
     },
     {
         id: 'entrada_sul',
         name: 'Entrada Sul',
         lat: -7.119900,
-        lng: -34.871667,
+        lng: -34.870563,
         type: 'acesso'
     },
     {
         id: 'entrada_leste',
         name: 'Entrada Leste',
-        lat: -7.119722,
+        lat: -7.119545,
         lng: -34.871400,
         type: 'acesso'
     },
