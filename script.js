@@ -890,6 +890,27 @@ function setupHorarioFilter() {
         updateHorarioDescription('atual');
     }
 }
+function calcularFluxoPorEntrada(pessoas, entradas, raio = 0.0003) {
+    // raio em coordenada, 0.0003 ~ 33 metros
+    return entradas.map(entrada => {
+        const fluxo = pessoas.filter(p => 
+            Math.sqrt(Math.pow(p.lat - entrada.lat, 2) + Math.pow(p.lng - entrada.lng, 2)) < raio
+        ).length;
+        return {
+            entrada: entrada.name,
+            count: fluxo
+        };
+    });
+}
+// ... já dentro de updateData() depois de pessoasData = generatePessoasData() ...
+const entradas = PONTOS_REFERENCIA.filter(p => p.type === 'acesso');
+const fluxoPorEntrada = calcularFluxoPorEntrada(pessoasData, entradas);
+
+// Exemplo: atualizar na tela
+fluxoPorEntrada.forEach((e, idx) => {
+    const el = document.getElementById(`fluxo-entrada-${idx}`);
+    if (el) el.textContent = `${e.count} pessoas`;
+});
 
 // Redimensionar mapa quando a janela muda
 window.addEventListener('resize', function() {
